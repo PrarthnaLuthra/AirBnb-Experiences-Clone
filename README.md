@@ -1,4 +1,4 @@
-#Airbnb Experences Clone using create react app
+#Airbnb Experiences Clone using create react app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
