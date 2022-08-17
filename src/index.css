@@ -6,32 +6,30 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.gray{
-  color: #918E9B;
+.gray {
+  color: #918e9b;
 }
-.bold{
+.bold {
   font-weight: bold;
 }
-nav{
+nav {
   height: 70px;
   display: flex;
   background-color: rgb(255, 255, 255);
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(126, 7, 7, 0.1);
-
-
 }
 
-.navlogo{
+.navlogo {
   max-width: 200px;
 }
-section{
+section {
   padding: 20px;
 }
-.Hero{
+.Hero {
   left: 2%;
   padding: auto;
   /* position: relative;  */
@@ -41,18 +39,15 @@ section{
   flex-direction: row;
   justify-content: space-around;
   transition: all ease-in-out 1s;
-
 }
-.HeroImage{
+.HeroImage {
   /* position: absoulute; */
-  align-self: center; 
+  align-self: center;
   height: 15vw;
   width: 22.5vw;
   border-radius: 10%;
   transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
-  box-shadow:  2.98256px 7.4564px rgba(126, 7, 7, 0.1);
- 
-
+  box-shadow: 2.98256px 7.4564px rgba(126, 7, 7, 0.1);
 }
 .Hero img:nth-child(1) {
   position: relative;
@@ -84,60 +79,56 @@ section{
   width: 23vw;
 }
 
-.Header{
+.Header {
   top: 45vh;
 }
-.HeroHeader{
+.HeroHeader {
   margin-bottom: 16px;
   font-size: 30px;
   text-align: center;
-  
-
 }
-.HeroText{
+.HeroText {
   margin-top: 0;
   font-size: larger;
   font-style: italic;
   font-weight: 400;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
 }
-.Cards{
+.Cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
-
 }
-.Card{
+.Card {
   width: 25vw;
   font-size: 12px;
   display: flex;
   flex-direction: column;
-  box-shadow:  2.98256px 7.4564px rgba(126, 7, 7, 0.1);
-  
+  box-shadow: 2.98256px 7.4564px rgba(126, 7, 7, 0.1);
 }
-.CardImage{
+.CardImage {
   height: 30vh;
   width: 25vw;
   border-radius: 15px 15px 0px 0px;
-  padding:0px 3px ;
-
+  padding: 0px 3px;
 }
-.CardCity{
+.CardCity {
   font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background-color: rgb(218, 236, 188);
 }
-.activity{
-    /* width: 175px; */
-    font-size: 12px;
-    flex: 0 0 auto;         
-    display: flex;          
-    flex-direction: column; 
-    justify-content: space-around;
-    position: relative;
+.activity {
+  /* width: 175px; */
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
 }
 .activities-list {
   display: flex;
@@ -147,12 +138,10 @@ section{
 }
 
 .card--image {
- 
   border-radius: 9px;
   margin-bottom: 9px;
   height: 45vh;
   width: 18vw;
-
 }
 
 /* ADD */
@@ -174,12 +163,12 @@ section{
 .card--price {
   margin-top: auto;
 }
-.card--badge{
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    background-color: rgb(245, 217, 217);
-    padding: 5px 7px;
-    border-radius: 3px;
-    font-weight: bold;
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: rgb(245, 217, 217);
+  padding: 5px 7px;
+  border-radius: 3px;
+  font-weight: bold;
 }
