@@ -24,6 +24,7 @@ nav{
 
 
 }
+
 .navlogo{
   max-width: 200px;
 }
@@ -120,10 +121,11 @@ section{
   height: 30vh;
   width: 25vw;
   border-radius: 15px 15px 0px 0px;
+  padding:0px 3px ;
 
 }
 .CardCity{
-  font-size: 45px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   background-color: rgb(218, 236, 188);
